@@ -79,8 +79,10 @@ call:colorys 0A "[+] 检查已安装反病毒软件："
 wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName,productState, pathToSignedProductExe
 @echo.
 call:colorys 0A "[+] 检查防火墙配置，并写入文件："
-netsh firewall show config
-netsh firewall show config > firewall_config.txt
+::netsh firewall show config
+::netsh firewall show config > firewall_config.txt
+netsh advfirewall firewall show rule name=all
+netsh advfirewall firewall show rule name=all > firewall_config.txt
 @echo.
 call:colorys 0A "[+] 检查Defender检测到的活动和过去的恶意软件威胁："
 @echo.

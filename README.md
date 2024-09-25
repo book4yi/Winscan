@@ -1,10 +1,9 @@
 # Winscan
 一键Windows应急响应检测脚本
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vJDso0DHzQ2HzzZcHJuGA3O2TsIXsAv1OIuJFVtb0Hibj866AVk8ARRR0rUf9VXiciaJBHImKicXZyCXkT8GPA8zfQ/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
 #### 实现功能：
 ---
-说明：运行本脚本需要管理员权限。
+说明：此脚本将自动以管理员权限运行。
 
 信息收集相关：
 + 操作系统信息
